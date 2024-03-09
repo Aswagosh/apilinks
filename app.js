@@ -14,7 +14,7 @@ app.get("/",(req,res)=>{
 app.get("/contacts",(req,res)=>{
     res.send("world")
 })
-app.get("/contacts",(req,res)=>{
+app.get("/contactss",(req,res)=>{
     res.send("welcome")
 })
 
