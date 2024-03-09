@@ -14,6 +14,10 @@ app.get("/",(req,res)=>{
 app.get("/contacts",(req,res)=>{
     res.send("world")
 })
+app.get("/contacts",(req,res)=>{
+    res.send("welcome")
+})
+
 
 app.listen(8083,()=>{
     console.log("service  is running")
